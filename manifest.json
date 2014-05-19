@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "AdBlocker",
+  "version": "0.5.1",
+  "description": "AdBlocker is an ad blocking extension for Kitt browser.",
+  "author": "Jan Dedecek",
+  "icons": {
+    "256": "images/shield.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "bower_components/jquery/jquery.min.js",
+        "js/content.js"
+      ],
+      "matches": [
+        "http://*/*"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  }
+}

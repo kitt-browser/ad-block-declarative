@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "AdBlocker",
+  "name": "AdBlockDeclarative",
   "version": "0.5.1",
-  "description": "AdBlocker is an ad blocking extension for Kitt browser.",
+  "description": "AdBlockerDeclarative is an ad blocking extension based on chrome.declarativeWebRequest",
   "author": "Jan Dedecek",
   "icons": {
     "256": "images/shield.png"

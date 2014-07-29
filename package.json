@@ -1,6 +1,6 @@
 {
   "name": "AdBlockDeclarative",
-  "version": "0.5.1",
+  "version": "0.5.4",
   "author": "Jan Dedecek",
   "licenses": [
     {
@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "bower": "1.3.2",
+    "bower": "1.3.8",
     "grunt": "0.4.2",
     "grunt-bumpup": "0.5.2",
     "grunt-cli": "0.1.13",
